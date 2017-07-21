@@ -18,26 +18,57 @@ namespace Lab2
             Thread.Sleep(3000);
             for (int i = 0; i < 50; i++)
             {
-                using (StreamReader sr = new StreamReader("smoke.txt"))
-                {
-                    string line;
-                    // Read and display lines from the file until the end of 
-                    // the file is reached.
-                    while (!(line = sr.ReadLine()).Contains("a"))
-                    {
-                        Console.WriteLine(line);
-                    }
-                    Thread.Sleep(50);
-                    Console.Clear();
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        Console.WriteLine(line);
-                    }
-                    Thread.Sleep(50);
-                    Console.Clear();
-                }
+                Console.Write(@"                     
+                    @+                    
+                      @@.                  
+                       #@@@.               
+                         #@@@@+            
+                     :     :@@@@@.         
+                      @       ;@@@@        
+                      @@:        @@@       
+                       @@@;       #@@      
+                        '@@@@:     @@      
+                          ,@@@@@    @;
+                             ;@@@`  @@     
+                               `@@  ,@     
+                                 ;@  @     
+                                  `  @     
+                                     ;     
+                                           
+                                           
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ #@     
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ #@     
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`#@     
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`#@");
+                Thread.Sleep(50);
+                Console.Clear();
+                Console.Write(@"                        
+                         @+                    
+                         @@.                  
+                          #@@@.               
+                            #@@@@+            
+                       :      :@@@@@.         
+                         @    ;@@@@        
+                         @@:     @@@       
+                          @@@;    #@@      
+                           '@@@@   @@      
+                             ,@@@@@ @;     
+                                ;@@@@     
+                                  `@@@     
+                                    ;@     
+                                   ` @     
+                                     ;     
+                                           
+                                           
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ #@     
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ #@     
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`#@     
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@`#@");
+                Thread.Sleep(50);
+                Console.Clear();
             }
-            Console.WriteLine("докурил :p");
+            
+            Console.WriteLine("\nдокурил :p");
         }
     }
 }
